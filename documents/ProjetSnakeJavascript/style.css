@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+
+/* Body */
+
+body {
+    background-color: #a1a1a1;
+    text-align: center;
+    font-weight: 400;
+    
+}
+
+body, select, option, button, p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    font-size: 20pt;
+    line-height: 1.75em;
+}
+
+h1 {
+    font-size: 2.4em;
+    letter-spacing: -0.015em;
+}
+
+/*Canvas*/
+
+canvas {
+    display: inline-block;
+    margin : 0em 2em 1em 2em;
+    background-color: white;
+    border:#555 10px solid;
+}
+
+/* Form */
+
+form select {
+    border: 0;
+    background: #686868;
+    padding: 0.75em;
+    width: auto;
+}
+
+/* Button */
+
+button {
+    background-color: #222222;
+    color: #F2F2F2;
+    font-weight: 350;
+    border: 0;
+    cursor: pointer;
+    padding: 0.7em 1.5em 0.7em 1.5em;
+}
+
+#replayButton {
+    display: inline-block;
+    padding : 0.5em 1em;
+    font-size : 0.75em;
+}
+
+/* Header */
+
+img {
+    width: 4em;
+}
+
+/* Page */
+
+#page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Footer */
+
+#footer p {
+    color: rgb(34, 34, 34);
+    text-align: center;
+    padding: 0;
+    font-size: 0.5em;
+}
